@@ -1,14 +1,3 @@
-<div align="center">
-
-```
-██████╗  ██████╗ ██╗  ██╗██╗████████╗
-██╔══██╗██╔═══██╗██║  ██║██║╚══██╔══╝
-██████╔╝██║   ██║███████║██║   ██║
-██╔══██╗██║   ██║██╔══██║██║   ██║
-██║  ██║╚██████╔╝██║  ██║██║   ██║
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝
-```
-
 ### Security Researcher · Tool Developer · Bug Hunter
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Rohit10-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/Rohit10)
@@ -18,10 +7,6 @@
 
 ---
 
-## About
-
-I build offensive security tools focused on web application testing and bug bounty reconnaissance. My work covers the full assessment lifecycle — from initial recon and surface mapping through vulnerability detection and exploitation. All tools are written in Python, designed to be modular, and built for authorized testing only.
-
 ```python
 class Rohit:
     role       = "Security Researcher & Tool Developer"
@@ -30,52 +15,6 @@ class Rohit:
     platforms  = ["Kali Linux", "Parrot OS", "BlackArch"]
     currently  = "Building and improving open-source security tooling"
 ```
-
----
-
-## Projects
-
-### 🔍 [ReconX](https://github.com/rohit-1006/ReconX)
-> Advanced Bug Bounty Reconnaissance Tool
-
-A full-featured desktop GUI reconnaissance suite with nine integrated modules. Built for bug bounty hunters who want a unified dashboard rather than a collection of disconnected CLI tools.
-
-**Modules:** Subdomain Enumeration (wordlist + crt.sh + zone transfer) · Port Scanning · Directory Bruteforce · Technology Detection · DNS Enumeration · Security Header Analysis · Wayback Machine URL Harvesting · WHOIS · Basic Vulnerability Scanning
-
-`Python` `Tkinter` `dnspython` `requests` `beautifulsoup4`
-
----
-
-### 🛡️ [Web Vulnerability Scanner](https://github.com/rohit-1006/Web-Vulnerability-Scanner)
-> Multi-module async web vulnerability scanner
-
-Asynchronous scanner covering three attack surfaces with structured reporting and full proof-of-concept capture. Runs concurrent scans with configurable depth and exports findings with CWE IDs, CVSS scores, and HTTP exchange logs.
-
-**Modules:** SQL Injection (MySQL · PostgreSQL · MSSQL · Oracle · SQLite) · XSS (7 injection contexts, canary-token detection) · CSRF (token analysis + SameSite cookie checks)
-
-`Python` `asyncio` `aiohttp` `beautifulsoup4`
-
----
-
-### 🎯 [SSRF Hunter Pro](https://github.com/rohit-1006/SSRF-Hunter)
-> Desktop GUI for Server-Side Request Forgery detection
-
-Purpose-built SSRF testing environment with built-in HTTP and DNS callback servers — no Burp Collaborator needed. Generates bypass-oriented payloads automatically and correlates blind callbacks via unique tracking tokens.
-
-**Features:** OOB detection · Cloud metadata payloads (AWS · GCP · Azure · DigitalOcean · Alibaba · Oracle · Kubernetes) · IP encoding bypasses · Gopher/Redis chaining · Internal network port probing
-
-`Python` `Tkinter` `Standard Library only`
-
----
-
-### ⚙️ [PenForge](https://github.com/rohit-1006/Penforge)
-> Modular penetration testing framework
-
-Plugin-and-chain architecture for automated port scanning and service probing. Register plugins, define port-specific exploit chains, and run everything concurrently. Outputs JSON and text reports with severity-ranked findings.
-
-**Built-in plugins:** Banner grabbing · SSL/TLS analysis · HTTP enumeration · FTP · SSH · SMTP · Redis · Elasticsearch · Telnet · Default credentials
-
-`Python` `Standard Library only`
 
 ---
 
