@@ -41,34 +41,6 @@ class Rohit:
 
 ---
 
-## Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rohit-1006&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohit-1006&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
 [![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Rohit10.png)](https://tryhackme.com/p/Rohit10)
-
-</div>
-
----
-
-## Areas of Focus
-
-```
-Web Application Security    ████████████████████  SQLi · XSS · SSRF · CSRF · IDOR
-Reconnaissance & OSINT      ████████████████░░░░  Subdomain · DNS · Tech Detection
-Tool Development            ████████████████████  Python · Modular Architecture
-Bug Bounty Hunting          ██████████████░░░░░░  Authorized Testing · Reporting
-```
-
----
-
-<div align="center">
-
-*All tools are built for authorized security testing only.*
-*Use responsibly and always obtain proper permission before testing.*
 
 </div>
